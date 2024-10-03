@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body {
+    background-color: #202A3C;
+    color:#FFFFFF ;
+}
+  
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+header{
+    display: flex;
+    width: 100%;
+    padding: 73px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+header nav ul {
+    display: flex;
+    gap: 57px;
+    height: 100%;
+    align-items: center;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.titulo {
+    display: flex;
+    padding: 36px 353px 0 353px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo h1 {
+   font-size: 40px;
+   line-height: 60px;
+   font-weight: 700;
+  
+   text-align: center;
+}
+
+.titulo p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    max-width: 589px;
+    margin-top: 32px;
+}
+.titulo button {
+    padding: 19px 96px;
+    font-weight: 700;
+    background:linear-gradient(#63E1D9,#34A0CD);
+    color:#FFFFFF;
+    border-radius: 28px;
+    margin-top: 32px;
+}
+
+.cards {
+    margin-top: 158px;
+    display: flex  ;
+    padding: 0 280px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.cards article {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     flex: 0 1 45%;
+     margin: 78px 73.5px;
+     
+}
+.cards h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top:16px;
+}
+
+.cards p {
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 9px;
+}
